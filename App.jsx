@@ -1,16 +1,18 @@
 import React from 'react'
 import {connect} from 'react-redux'
-
-import Counter from './Counter.jsx'
-import Caculator from './Caculator.jsx'
-import Student from './Student.jsx'
-
+import List from './List.jsx';
+import Form from './Form.jsx';
 class App extends React.Component{
+
 
     render(){
         return (
             <div>
-                 <Student />
+           <List students={this.props.students} dispatch={this.props.dispatch}/>
+
+            <Form dispatch={this.props.dispatch}/>
+          
+             
             </div>
 
         )
@@ -20,7 +22,8 @@ class App extends React.Component{
 
 function mapStateToProps(centralState){
     return {
-        counter: centralState.counter
+       students: centralState.students,
+       courses: centralState.courses
     }
 }
 
