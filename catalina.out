@@ -1,0 +1,190 @@
+Aug 20, 2018 10:20:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 20, 2018 10:20:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Aug 20, 2018 10:20:23 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:23 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1065-aws
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 20, 2018 10:20:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Aug 20, 2018 10:20:24 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 974 ms
+Aug 20, 2018 10:20:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 20, 2018 10:20:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 20, 2018 10:20:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /var/lib/tomcat8/webapps/HelloHibernateSpringMVC-1.0-SNAPSHOT.war
+Aug 20, 2018 10:20:27 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 20, 2018 10:20:27 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 20, 2018 10:20:27 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Mon Aug 20 10:20:27 UTC 2018]; root of context hierarchy
+Aug 20, 2018 10:20:27 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 20, 2018 10:20:29 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 20, 2018 10:20:29 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 20, 2018 10:20:29 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 20, 2018 10:20:29 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 20, 2018 10:20:29 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 20, 2018 10:20:29 AM org.hibernate.engine.jdbc.internal.JdbcServicesImpl configure
+WARN: HHH000342: Could not obtain connection to query metadata : FATAL: password authentication failed for user "postgres"
+Aug 20, 2018 10:20:29 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Aug 20, 2018 10:20:29 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000422: Disabling contextual LOB creation as connection was null
+Aug 20, 2018 10:20:29 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+Aug 20, 2018 10:20:29 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4819)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:939)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1812)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 28 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 41 more
+Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:936)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:824)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3788)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3742)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1410)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1844)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 51 more
+
+Aug 20, 2018 10:20:29 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Aug 20, 2018 10:20:29 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/HelloHibernateSpringMVC-1.0-SNAPSHOT] startup failed due to previous errors
+Aug 20, 2018 10:20:29 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: The web application [HelloHibernateSpringMVC-1.0-SNAPSHOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Aug 20, 2018 10:20:30 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /var/lib/tomcat8/webapps/HelloHibernateSpringMVC-1.0-SNAPSHOT.war has finished in 5,026 ms
+Aug 20, 2018 10:20:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/ROOT
+Aug 20, 2018 10:20:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat8/webapps/ROOT has finished in 427 ms
+Aug 20, 2018 10:20:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Aug 20, 2018 10:20:30 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5597 ms

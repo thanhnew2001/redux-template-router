@@ -1,50 +1,46 @@
 import React from 'react'
 
 export default class Form extends React.Component{
-
     constructor(){
         super()
-        this.state = {studentName: ''}
+        this.state = {name: 'abc', age: '10'}
     }
+
     handleChange(e){
-        var change = {}
-        change[e.target.name] = e.target.value
-        this.setState(change)
+        var newvalue = {}
+        newvalue[e.target.name] = e.target.value
+        this.setState(newvalue)
     }
 
-    addStudent(){
-        //POST to webapi
-
-        fetch(`http://rmit.chickenkiller.com:8080/students`, {
+    onSave(){
+        fetch('http://rmit.chickenkiller.com:8080/students', {
             headers: {
-                'Accept': 'application/json, text/plain, */*',
+                'Accept': 'application/json',
                 'Content-Type': 'application/json'
-              },
-            method: 'post', 
-            body: JSON.stringify({name: this.state.studentName})
+            },
+            method: 'post',
+            body: JSON.stringify(this.state)
         })
-        .then((res)=>{
-            return res.json()
+        .then(res=>res.json())
+        .then(student=>{
+            this.props.dispatch({type: 'ADD_STUDENT', payload: student})
         })
-        .then((student)=>{
-            this.props.dispatch({type:'ADD_STUDENT', payload: student})
-        })
-
     }
+
     render(){
         return(
             <div>
-                <h1>Student Form</h1>
-            <input type="text" name="studentName"  
-                value = {this.state.studentName}
-                onChange={this.handleChange.bind(this)
-                }
-            />
-            <button onClick={this.addStudent.bind(this)}>Add</button>
-
-
+               <div className='panel panel-default'>
+                 <div className='panel-heading'>Student Form</div>
+                 <div className='panel-body'>
+                    <label htmlFor="">Name</label> <input type="text" name='name' 
+                    value={this.state.name} className='form-control' onChange={this.handleChange.bind(this)}/>
+                    <label htmlFor="">Age</label><input type="text" name='age' 
+                    value={this.state.age} className='form-control' onChange={this.handleChange.bind(this)}/>
+                    <button className='btn btn-default' onClick={this.onSave.bind(this)}>Save</button>    
+                 </div>
+               </div> 
             </div>
-            
         )
     }
 }

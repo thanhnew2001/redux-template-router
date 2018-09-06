@@ -7,8 +7,15 @@ var config = {
      
     devServer: {
        inline: true,
-       port: 8080
+       port: 8080,
+       historyApiFallback: true
     },
+
+    // devServer: {
+    //     historyApiFallback: true,
+    //     contentBase: './',
+    //     hot: true
+    //   },
      
     module: {
        loaders: [
@@ -19,8 +26,9 @@ var config = {
                  
              query: {
                 presets: ['es2015', 'react']
-             }
-          }
+             },
+            
+          },   
        ]
     }
  }
